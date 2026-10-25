@@ -22,6 +22,13 @@ h3{font-size:1rem;color:#1d3e63;margin:21px 0 6px}p,ul{margin:8px 0 14px}ul{padd
 footer{color:#60718a;text-align:center;max-width:820px;padding:0 20px 36px;margin:auto;font-size:.85rem}
 @media(max-width:620px){main{padding:26px 20px;border-radius:14px}h1{font-size:1.7rem}header{padding:25px 22px 30px}}
 @media(prefers-reduced-motion:no-preference){a{transition:color .15s,background .15s}}
+
+/* Weitere Projekte im Impressum / Datenschutz */
+.other-projects-legal{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;border-top:1px solid #dce5ef;margin:20px auto 0;padding-top:20px}
+.other-projects-legal .other-projects-label{font-size:.86rem;color:#526d8a;font-weight:750;margin-right:5px}
+.other-projects-legal a{display:inline-flex;align-items:center;gap:6px;border:1px solid #c9dbee;border-radius:999px;padding:6px 13px;background:#fff;color:#205281;text-decoration:none;font-size:.86rem;font-weight:650}
+.other-projects-legal a:hover,.other-projects-legal a:focus-visible{border-color:#1c74cc;background:#eaf3ff;color:#175a9c}
+
 </style></head>
 <body>
 <header><div class="brand"><span class="mark" aria-hidden="true">ϟ</span><span>StromkreisPass</span></div><p>Dokumentation von Gebäuden, Verteilungen und Stromkreisen.</p></header>
@@ -38,5 +45,10 @@ footer{color:#60718a;text-align:center;max-width:820px;padding:0 20px 36px;margi
 <h2>Verantwortung für Inhalte</h2>
 <p>Die Angaben auf dieser Website werden mit Sorgfalt erstellt. Rechtlich zwingende Verantwortlichkeiten bleiben unberührt. Für Inhalte externer Websites sind deren jeweilige Anbieter verantwortlich.</p>
 </main>
-<footer>StromkreisPass · Stand 18. Oktober 2026 · <a href="./">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></footer>
+<footer>StromkreisPass · Stand 18. Oktober 2026 · <a href="./">Impressum</a> · <a href="datenschutz.html">Datenschutz</a><nav class="other-projects-legal" aria-label="Weitere Projekte">
+  <span class="other-projects-label">Weitere Projekte</span>
+  <a href="https://rhartmuth.github.io/servicedoku-website/" target="_blank" rel="noopener noreferrer">ServiceDoku <span aria-hidden="true">↗</span></a>
+  <a href="https://rhartmuth.github.io/schadenpilot-website/" target="_blank" rel="noopener noreferrer">SchadenPilot <span aria-hidden="true">↗</span></a>
+</nav>
+</footer>
 </body></html>
